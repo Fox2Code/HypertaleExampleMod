@@ -1,0 +1,21 @@
+{
+  "Group": "Hypertale",
+  "Name": "Example",
+  "Version": "${version}",
+  "Description": "Example Hypertale Mod!",
+  "Authors": [
+    {
+      "Name": "Fox2Code",
+      "Email": "fox2code@gmail.com",
+      "Url": "https://discord.gg/MYcjAhgTKC"
+    }
+  ],
+  "Website": "https://github.com/Fox2Code/HypertaleExampleMod",
+  "Main": "com.fox2code.hypertale_example.HypertaleExample",
+  "ServerVersion": "*",
+  "Dependencies": {
+    "Hypertale:Hypertale": "*"
+  },
+  "OptionalDependencies": {},
+  "DisabledByDefault": false
+}
