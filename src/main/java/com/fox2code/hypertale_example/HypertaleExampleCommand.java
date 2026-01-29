@@ -9,7 +9,7 @@ import org.jspecify.annotations.Nullable;
 import java.util.concurrent.CompletableFuture;
 
 public class HypertaleExampleCommand extends AbstractCommand {
-	protected HypertaleExampleCommand(@Nullable String name, @Nullable String description) {
+	protected HypertaleExampleCommand() {
 		super("hypertale_example", "Hypertale Example mod command");
 	}
 

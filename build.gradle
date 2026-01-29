@@ -1,9 +1,9 @@
 plugins {
-    id 'hypertale.dev' version '0.0.3'
+    id 'hypertale.dev' version '0.0.4'
 }
 
 group = 'com.fox2code'
-version = '1.0-SNAPSHOT'
+version = '1.0.0'
 
 repositories {
     mavenCentral()
@@ -17,4 +17,11 @@ dependencies {
 
 test {
     useJUnitPlatform()
+}
+
+hypertale {
+    // useBundling = false // Uncomment for disabling bundling.
+    // useSpotless = false // Uncomment for disabling automatic code formatting.
+    buildConfigPackage = "com.fox2code.hypertale_example"
+    buildConfig("MY_PROPERTY", "Example value")
 }
