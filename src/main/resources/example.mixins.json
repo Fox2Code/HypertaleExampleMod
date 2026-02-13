@@ -1,0 +1,9 @@
+{
+  "required": false,
+  "minVersion": "0.8",
+  "compatibilityLevel": "JAVA_21",
+  "package": "com.fox2code.hypertale_example.mixin",
+  "mixins": [
+    "MixinHytaleServer"
+  ]
+}

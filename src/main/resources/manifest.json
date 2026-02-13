@@ -17,5 +17,7 @@
     "Hypertale:Hypertale": "*"
   },
   "OptionalDependencies": {},
-  "DisabledByDefault": false
+  "DisabledByDefault": false,
+  "HypertalePreLoad": true,
+  "HypertaleMixinConfig": "example.mixins.json"
 }
